@@ -4,14 +4,52 @@
 <head>
 <style>
     .navbar {
-    height: 80px;
-    justify-content: center;
-    display: flex;
-    background-color: black;
+        height: 80px;
+        justify-content: center;
+        display: flex;
+        background-color: black;
 }
+    .navbar a {
+        color: white;
+        padding: 15px 40px;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    .navbar img {
+        position: absolute;
+        left: 8px;
+        width: 80px;
+        height: 80px;
+    }
+    a:visited {
+        color: rgb(193, 129, 241);
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(0, 38, 255);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(82, 0, 82);
+        background-color: transparent;
+        text-decoration: underline;
+    }       
 </style>
 </head>
 
+
+<div class="navbar">
+    <img class="img" src="images/gamerhelpslogo.png">
+        <a href="home.html">HOME</a>
+        <a href="gaming.html">GAMING</a>
+        <a href="genre.html">GENRE</a>
+        <a href="about.html">ABOUT</a>
+</div>
+<hr>
 
 <div class="navbar"> 
     <div style="color: white; padding: 12px; font-size: 50px;">About Me & This Website</div>
