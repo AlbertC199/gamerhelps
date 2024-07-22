@@ -1,12 +1,6 @@
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
-button {
-  color: rgb(0, 0, 0);
-  background-color: white;
+body {
+  background: linear-gradient(lightblue, rgb(253, 70, 253),blue);
+  background-size: 400% 400%;
 }
 
 .flex-container {
@@ -23,27 +17,117 @@ button {
   font-size: 20px;
 }
 
-body {
-    background: linear-gradient(lightblue, rgb(253, 70, 253),blue);
-    background-size: 400% 400%;
+
+.bar{
+  justify-content: center;
+  height: 80px;
+  display: flex;
+  background-color: black;
 }
 
-  
-  .open-sans {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
-  
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
+.navbar {
+  justify-content: center;
+  height: 80px;
+  display: flex;
+  background-color: black;
 
+}
+.navbar a {
+  color: white;
+  padding: 15px 40px;
+  font-size: 40px;
+  text-decoration: none;
+}
+.navbar img {
+  position: absolute;
+  left: 8px;
+  width: 80px;
+  height: 80px;
+}
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(166, 68, 241);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 38, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(82, 0, 82);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container img {
+  display: block;
+  width: 211.5%;
+  height: 600px;
+}
+
+.centered {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(65%, -80%);
+  font-size: 500%;
+}
+
+
+
+p {
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+}
+h1{
+  width: 50%;
+  margin: auto;
+}
+h3 {
+  width: 50%;
+  margin: auto;
+}
+
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
   /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
