@@ -1,4 +1,27 @@
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+button {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
 
+.flex-container {
+  flex-direction: column;
+  display: flex;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  text-align: left;
+  background-color: transparent;
+  margin-top: auto;
+  padding: 20px auto;
+  font-size: 20px;
+}
 
 body {
     background: linear-gradient(lightblue, rgb(253, 70, 253),blue);
