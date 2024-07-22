@@ -1,5 +1,27 @@
 
-    /* ----------- iPhone 4 and 4S ----------- */
+
+body {
+    background: linear-gradient(lightblue, rgb(253, 70, 253),blue);
+    background-size: 400% 400%;
+}
+
+  
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
 @media only screen 

@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
 
-
-
-
+<link href="style.css">
 
 <head>
 <style>
     body {
-      background-color: rgba(224, 224, 224, 0.473);
-      border: #000000;
-      border-radius: 200px;
-      
+        background: linear-gradient(lightblue, rgb(253, 70, 253),blue);
+        background-size: 400% 400%;
     }
 </style>
 </head>
@@ -21,12 +17,12 @@
 .flex-container {
     flex-direction: column;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
 }
 
 .flex-container > div {
     text-align: left;
-    background-color: #f1f1f1;
+    background-color: transparent;
     margin-top: auto;
     padding: 20px auto;
     font-size: 20px;
@@ -91,14 +87,14 @@
     }
     .image-container img {
         display: block;
-        width: 1904px;
+        width: 211.5%;
         height: 600px;
     }
     .overlay-text {
-        position: absolute;
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
+        position: relative;
+        top: 20%; 
+        left: 100%; 
+        transform: translate(-46%, -320%); 
         color: #fff; 
         padding: 10px 20px; 
         font-size: 80px; 
@@ -111,6 +107,7 @@
 <head>
 <style>
     p {
+        font-size: 22px;
         width: 50%;
         margin: auto;
     }
@@ -126,11 +123,8 @@
 </head>
 
 
-
-
-
 <div class="navbar">
-    <img class="img" src="images/gamerhelpslogo.png">
+    <img class="img" src="images/gamerhelpslogo.png" alt="gamerhelps" class="responsive">
         <a href="home.html">HOME</a>
         <a href="gaming.html">GAMING</a>
         <a href="genre.html">GENRE</a>
@@ -138,13 +132,11 @@
 </div>
 
 <div class="image-container">
-    <img src="images/accessories.webp">
+    <img src="images/accessories.webp" alt="accessories">
     <div class="overlay-text">THE LIFE OF GAMING</div>
 </div>
 
   
-
-
 
 <div class="flex-container">
     <div><h1>How Far Gaming Has Come</h1><br>
