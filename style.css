@@ -13,6 +13,17 @@ body {
   background-color: transparent;
 }
 
+
+.flex-container2 { 
+  flex-direction: row;
+  margin-left: auto;
+  display: flex;
+  background-color: transparent;
+}
+
+
+
+
 .flex-container > div {
   text-align: left;
   background-color: transparent;
@@ -34,6 +45,7 @@ body {
 
 .navbar {
   justify-content: center;
+  margin: auto;
   height: 80px;
   display: flex;
   background-color: black;
@@ -42,8 +54,8 @@ body {
 .navbar a {
   width: 6%;
   color: white;
-  padding: 15px 4%;
-  font-size: 38px;
+  margin: auto;
+  font-size: 36px;
   text-decoration: none;
 }
 .navbar img {
@@ -124,7 +136,10 @@ h3 {
   height: auto;
 }
 
-
+.responsive a {
+  width: 100%;
+  height: auto;
+}
 
 footer {
   text-align: center;
